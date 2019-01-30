@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
+import { Player } from './models/player.model';
+// import { PlayerService } from './player.service';
+
 
 @Injectable()
 export class LibraryApiPhotosService {
