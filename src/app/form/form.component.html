@@ -1,3 +1,15 @@
-<p>
-  form works!
-</p>
+<div class="form">
+  <label>Username:</label>
+  <input #username>
+  <label>Skill:</label>
+  <select #skill>
+    <option [value]="Design"> Design </option>
+    <option [value]="Algorithms"> Algorithms </option>
+  </select>
+  <label>Avatar:</label>
+  <input #avatar>
+  <button (click)="createNewPlayerForm(username.value, skill.value, avatar.value); username.value= ''; skill.value= ''; avatar.value= '';">Start a game</button>
+
+<img src="//cdn.loc.gov/service/pnp/anrc/09900/09925_150px.jpg" alt="">
+
+</div>

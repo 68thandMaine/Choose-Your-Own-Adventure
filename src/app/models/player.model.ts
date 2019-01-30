@@ -1,3 +1,4 @@
 export class Player {
-  constructor(public name: string, public skill: string, public img: string, public score: number){}
+  public score: number = 0;
+  constructor(public name: string, public skill: string, public avatarString: string){}
 }
