@@ -24,6 +24,7 @@ export class FormComponent {
 
       this.playerService.addPlayer(newPlayer);
 
+
     })
 
   }

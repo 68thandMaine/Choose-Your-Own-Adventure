@@ -1,0 +1,13 @@
+.nav {
+  height: 18rem;
+  z-index: 1;
+
+}
+.avatar{
+  height: 132;
+  width: 132;
+  position: relative;
+  border: 1px, solid;
+  z-index: 1;
+  float: left;
+}

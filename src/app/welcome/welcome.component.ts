@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PlayerService } from '../player.service';
+import { Player } from '../models/player.model';
 
 @Component({
   selector: 'app-welcome',
